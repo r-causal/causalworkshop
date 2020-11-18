@@ -1,0 +1,30 @@
+Package: useRcausal2020
+Title: Install Workshop Materials for Causal Inference in R
+Version: 0.1.0
+Authors@R: 
+    person(given = "Malcolm",
+           family = "Barrett",
+           role = c("aut", "cre"),
+           email = "malcolmbarrett@gmail.com",
+           comment = c(ORCID = "0000-0003-0299-5825"))
+Description: Install workshop materials for the Causal Inference
+    in R.
+License: MIT + file LICENSE
+URL: https://github.com/malcolmbarrett/useRcausal2020
+BugReports: 
+    https://github.com/malcolmbarrett/useRcausal2020/issues
+Imports: 
+    broom,
+    cidata,
+    ggdag,
+    rsample (>= 0.0.5),
+    survey,
+    tableone,
+    tidyverse,
+    usethis
+Remotes: 
+    malcolmbarrett/cidata
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+RoxygenNote: 7.1.1
