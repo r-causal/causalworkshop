@@ -9,18 +9,23 @@
 
 ## Installation
 
-You can install useRcausal2020 from this repository with
+You can install causalworkshop from this repository with
 
 ``` r
 install.packages("remotes")
-remotes::install_github("malcolmbarrett/useRcausal2020")
+remotes::install_github("malcolmbarrett/causalworkshop")
 ```
 
 Once you’ve installed the package, install the workshop with
 
 ``` r
-useRcausal2020::install_workshop("path/to/your/computer")
+causalworkshop::install_workshop()
 ```
 
-Replace “path/to/your/computer” with where on your computer you want the
-workshop installed.
+By default, this package downloads the materials to a conspicuous place
+like your Desktop. You can also tell `install_workshop()` exactly where
+to put the materials:
+
+``` r
+causalworkshop::install_workshop("a/path/on/your/computer")
+```
