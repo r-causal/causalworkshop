@@ -1,4 +1,4 @@
-Package: useRcausal2020
+Package: causalworkshop
 Title: Install Workshop Materials for Causal Inference in R
 Version: 0.1.0
 Authors@R: 
@@ -10,9 +10,9 @@ Authors@R:
 Description: Install workshop materials for the Causal Inference
     in R.
 License: MIT + file LICENSE
-URL: https://github.com/malcolmbarrett/useRcausal2020
+URL: https://github.com/malcolmbarrett/causalworkshop
 BugReports: 
-    https://github.com/malcolmbarrett/useRcausal2020/issues
+    https://github.com/malcolmbarrett/causalworkshop/issues
 Imports: 
     broom,
     cidata,

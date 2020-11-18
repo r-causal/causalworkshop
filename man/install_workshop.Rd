@@ -4,11 +4,13 @@
 \alias{install_workshop}
 \title{Install workshop materials}
 \usage{
-install_workshop(path = ".")
+install_workshop(destdir = getOption("usethis.destdir"))
 }
 \arguments{
-\item{path}{The path on your computer where you would like the workshop
-installed}
+\item{destdir}{The path on your computer where you would like the workshop
+installed. By default, this will install somewhere conspicous, like your
+desktop, although you can tell `install_workshop()` exactly where you want
+it to download.}
 }
 \description{
 `install_course()` will install the workshop materials for the workshop
