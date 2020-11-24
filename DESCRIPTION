@@ -21,7 +21,9 @@ Imports:
     survey,
     tableone,
     tidyverse,
-    usethis
+    usethis,
+    MatchIt,
+    optmatch
 Remotes: 
     malcolmbarrett/cidata
 Encoding: UTF-8
