@@ -17,13 +17,16 @@ Imports:
     broom,
     cidata,
     ggdag,
+    MatchIt,
     rsample (>= 0.0.5),
     survey,
     tableone,
     tidyverse,
+    tipr (>= 0.3.0),
     usethis
 Remotes: 
-    malcolmbarrett/cidata
+    malcolmbarrett/cidata,
+    LucyMcGowan/tipr
 Encoding: UTF-8
 Language: en-US
 LazyData: true
