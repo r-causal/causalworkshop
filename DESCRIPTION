@@ -7,17 +7,16 @@ Authors@R:
            role = c("aut", "cre"),
            email = "malcolmbarrett@gmail.com",
            comment = c(ORCID = "0000-0003-0299-5825"))
-Description: Install workshop materials for the Causal Inference
-    in R.
+Description: Install workshop materials for the Causal Inference in R.
 License: MIT + file LICENSE
 URL: https://github.com/malcolmbarrett/causalworkshop
-BugReports: 
-    https://github.com/malcolmbarrett/causalworkshop/issues
+BugReports: https://github.com/malcolmbarrett/causalworkshop/issues
 Imports: 
     broom,
     cidata,
     ggdag,
     MatchIt,
+    optmatch,
     rsample (>= 0.0.5),
     survey,
     tableone,
@@ -25,8 +24,8 @@ Imports:
     tipr (>= 0.3.0),
     usethis
 Remotes: 
-    malcolmbarrett/cidata,
-    LucyMcGowan/tipr
+    LucyMcGowan/tipr,
+    malcolmbarrett/cidata
 Encoding: UTF-8
 Language: en-US
 LazyData: true
