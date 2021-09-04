@@ -13,7 +13,7 @@ URL: https://github.com/malcolmbarrett/causalworkshop
 BugReports: https://github.com/malcolmbarrett/causalworkshop/issues
 Imports: 
     broom,
-    cidata,
+    causaldata,
     ggdag,
     MatchIt,
     optmatch,
@@ -24,8 +24,7 @@ Imports:
     tipr (>= 0.3.0),
     usethis
 Remotes: 
-    LucyMcGowan/tipr,
-    malcolmbarrett/cidata
+    LucyMcGowan/tipr
 Encoding: UTF-8
 Language: en-US
 LazyData: true
