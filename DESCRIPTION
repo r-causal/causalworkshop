@@ -14,17 +14,16 @@ BugReports: https://github.com/malcolmbarrett/causalworkshop/issues
 Imports: 
     broom,
     causaldata,
-    ggdag,
+    ggdag (>= 0.2.4),
+    gtsummary (>= 1.5.0),
     MatchIt,
     optmatch,
     rsample (>= 0.0.5),
+    smd (>= 0.6.6),
     survey,
-    tableone,
     tidyverse,
     tipr (>= 0.3.0),
-    usethis
-Remotes: 
-    LucyMcGowan/tipr
+    usethis (>= 2.1.0)
 Encoding: UTF-8
 Language: en-US
 LazyData: true
