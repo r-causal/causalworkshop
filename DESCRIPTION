@@ -23,8 +23,11 @@ Imports:
     survey,
     tidyverse,
     tipr (>= 0.3.0),
+    touringplans (>= 0.0.0.9000),
     usethis (>= 2.1.0)
 Encoding: UTF-8
 Language: en-US
 LazyData: true
 RoxygenNote: 7.1.1
+Remotes:  
+    LucyMcGowan/touringplans
