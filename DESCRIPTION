@@ -22,7 +22,7 @@ Imports:
     smd (>= 0.6.6),
     survey,
     tidyverse,
-    tipr (>= 0.3.0),
+    tipr (>= 0.4.1),
     touringplans (>= 0.0.0.9000),
     usethis (>= 2.1.0)
 Encoding: UTF-8
