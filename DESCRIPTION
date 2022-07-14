@@ -22,6 +22,7 @@ Imports:
     rsample (>= 0.0.5),
     smd (>= 0.6.6),
     survey,
+    tidysmd,
     tidyverse,
     tipr (>= 0.4.1),
     touringplans (>= 0.0.0.9000),
@@ -30,6 +31,6 @@ Encoding: UTF-8
 Language: en-US
 LazyData: true
 RoxygenNote: 7.1.1
-Remotes:  
+Remotes: 
     LucyMcGowan/touringplans,
     malcolmbarrett/ggecdf
