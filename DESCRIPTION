@@ -15,6 +15,7 @@ Imports:
     broom,
     causaldata,
     ggdag (>= 0.2.4),
+    ggecdf (>= 0.0.0.9000),
     gtsummary (>= 1.5.0),
     MatchIt,
     optmatch,
@@ -30,4 +31,5 @@ Language: en-US
 LazyData: true
 RoxygenNote: 7.1.1
 Remotes:  
-    LucyMcGowan/touringplans
+    LucyMcGowan/touringplans,
+    malcolmbarrett/ggecdf
