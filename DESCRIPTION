@@ -14,7 +14,7 @@ BugReports: https://github.com/malcolmbarrett/causalworkshop/issues
 Imports: 
     broom,
     causaldata,
-    ggdag (>= 0.2.4),
+    ggdag (>= 0.2.5),
     ggecdf (>= 0.0.0.9000),
     gtsummary (>= 1.5.0),
     MatchIt,
