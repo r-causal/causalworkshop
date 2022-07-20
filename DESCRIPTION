@@ -1,16 +1,18 @@
 Package: causalworkshop
 Title: Install Workshop Materials for Causal Inference in R
 Version: 0.1.0
-Authors@R: 
-    person(given = "Malcolm",
-           family = "Barrett",
-           role = c("aut", "cre"),
-           email = "malcolmbarrett@gmail.com",
-           comment = c(ORCID = "0000-0003-0299-5825"))
+Authors@R: c(
+    person("Malcolm", "Barrett", , "malcolmbarrett@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-0299-5825")),
+    person("Andrew", "Heiss", , "andrew@andrewheiss.com", role = "ctb",
+           comment = "Wrote simulation code to generate `net_data`")
+  )
 Description: Install workshop materials for the Causal Inference in R.
 License: MIT + file LICENSE
 URL: https://github.com/malcolmbarrett/causalworkshop
 BugReports: https://github.com/malcolmbarrett/causalworkshop/issues
+Depends: 
+    R (>= 2.10)
 Imports: 
     broom,
     causaldata,
@@ -27,10 +29,10 @@ Imports:
     tipr (>= 0.4.1),
     touringplans (>= 0.0.0.9000),
     usethis (>= 2.1.0)
+Remotes: 
+    LucyMcGowan/touringplans,
+    malcolmbarrett/ggecdf
 Encoding: UTF-8
 Language: en-US
 LazyData: true
 RoxygenNote: 7.1.1
-Remotes: 
-    LucyMcGowan/touringplans,
-    malcolmbarrett/ggecdf
