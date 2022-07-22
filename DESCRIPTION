@@ -4,6 +4,8 @@ Version: 0.1.0
 Authors@R: c(
     person("Malcolm", "Barrett", , "malcolmbarrett@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-0299-5825")),
+    person("Lucy", "D'Agostino McGowan", , "lucydagostino@gmail.com", role = "aut",
+           comment = c(ORCID = "0000-0001-7297-9359")),
     person("Andrew", "Heiss", , "andrew@andrewheiss.com", role = "ctb",
            comment = "Wrote simulation code to generate `net_data`")
   )
