@@ -34,12 +34,12 @@ Imports:
     tipr (>= 1.0.1),
     touringplans (>= 0.0.0.9000),
     usethis (>= 2.1.0)
-Remotes:  
+Remotes: 
+    LucyMcGowan/tipr,
     LucyMcGowan/touringplans,
     malcolmbarrett/ggecdf,
-    LucyMcGowan/tipr,
-    malcolmbarrett/propensity,
-    malcolmbarrett/halfmoon
+    malcolmbarrett/halfmoon,
+    malcolmbarrett/propensity
 Encoding: UTF-8
 Language: en-US
 LazyData: true
