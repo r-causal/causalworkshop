@@ -19,7 +19,7 @@ Imports:
     broom,
     causaldata,
     estimatr,
-    ggdag (>= 0.2.5),
+    ggdag (>= 0.2.10),
     gtsummary (>= 1.5.0),
     halfmoon (>= 0.1.0),
     MatchIt,
@@ -34,7 +34,6 @@ Imports:
     touringplans (>= 0.0.0.9000),
     usethis (>= 2.1.0)
 Remotes: 
-    LucyMcGowan/tipr,
     LucyMcGowan/touringplans,
     malcolmbarrett/propensity
 Encoding: UTF-8
