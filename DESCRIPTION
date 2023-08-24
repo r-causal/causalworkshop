@@ -25,6 +25,7 @@ Imports:
     MatchIt,
     optmatch,
     propensity (>= 0.0.0.9000),
+    quartets,
     rsample (>= 0.0.5),
     smd (>= 0.6.6),
     survey,
