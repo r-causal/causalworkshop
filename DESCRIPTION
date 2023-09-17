@@ -33,7 +33,7 @@ Imports:
     tidysmd,
     tidyverse,
     tipr (>= 1.0.1),
-    touringplans (>= 0.0.0.9000),
+    touringplans (>= 0.0.1),
     usethis (>= 2.1.0)
 Remotes: 
     LucyMcGowan/touringplans,
