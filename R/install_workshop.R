@@ -12,7 +12,7 @@
 #' @export
 install_workshop <- function(destdir = getOption("usethis.destdir")) {
   usethis::use_course(
-    "malcolmbarrett/causal_inference_r_workshop",
+    "r-causal/causal_inference_r_workshop",
     destdir = destdir
   )
 }

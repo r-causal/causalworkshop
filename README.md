@@ -4,7 +4,6 @@
 # Install the workshop materials for Causal Inference in R
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
 ## Installation
@@ -12,8 +11,8 @@
 You can install causalworkshop from this repository with
 
 ``` r
-install.packages("remotes")
-remotes::install_github("malcolmbarrett/causalworkshop")
+install.packages("pak")
+pak::pak("r-causal/causalworkshop")
 ```
 
 Once you’ve installed the package, install the workshop with
