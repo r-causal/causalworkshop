@@ -18,27 +18,36 @@ Depends:
 Imports: 
     broom,
     causaldata,
+    earth,
     estimatr,
+    gam,
     ggdag (>= 0.2.10.9000),
     ggokabeito,
+    glmnet,
     gtsummary (>= 1.5.0),
-    halfmoon (>= 0.1.0),
+    halfmoon (>= 0.1.0.9000),
     MatchIt,
     optmatch,
     propensity (>= 0.0.0.9000),
     quartets,
+    ranger,
     rsample (>= 0.0.5),
     smd (>= 0.6.6),
+    SuperLearner,
     survey,
     tidysmd,
     tidyverse,
     tipr (>= 1.0.1),
+    tmle,
     touringplans (>= 0.0.1),
-    usethis (>= 2.1.0)
+    usethis (>= 2.1.0),
+    xgboost,
+    yardstick
 Remotes: 
     LucyMcGowan/touringplans,
-    malcolmbarrett/propensity,
-    malcolmbarrett/ggdag
+    r-causal/propensity,
+    r-causal/ggdag,
+    r-causal/halfmoon
 Encoding: UTF-8
 Language: en-US
 LazyData: true
