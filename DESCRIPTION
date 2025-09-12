@@ -35,7 +35,7 @@ Imports:
     smd (>= 0.6.6),
     SuperLearner,
     survey,
-    tidysmd,
+    tidysmd (>= 0.2.0.9000),
     tidyverse,
     tipr (>= 1.0.1),
     tmle,
@@ -43,11 +43,12 @@ Imports:
     usethis (>= 2.1.0),
     xgboost,
     yardstick
-Remotes: 
+Remotes:  
     LucyMcGowan/touringplans,
     r-causal/propensity,
     r-causal/ggdag,
-    r-causal/halfmoon
+    r-causal/halfmoon,
+    r-causal/tidysmd
 Encoding: UTF-8
 Language: en-US
 LazyData: true
