@@ -26,6 +26,7 @@ Imports:
     glmnet,
     gtsummary (>= 1.5.0),
     halfmoon (>= 0.1.0.9000),
+    marginaleffects (>= 0.32.0.9994),
     MatchIt,
     optmatch,
     propensity (>= 0.0.0.9000),
@@ -45,6 +46,7 @@ Imports:
     yardstick
 Remotes:  
     LucyMcGowan/touringplans,
+    malcolmbarrett/marginaleffects/r@ipw-support,
     r-causal/propensity,
     r-causal/ggdag,
     r-causal/halfmoon,
