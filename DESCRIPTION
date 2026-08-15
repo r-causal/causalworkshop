@@ -22,12 +22,14 @@ Imports:
     estimatr,
     gam,
     ggdag (>= 0.2.10.9000),
+    ggmice,
     ggokabeito,
     glmnet,
     gtsummary (>= 1.5.0),
     halfmoon (>= 0.1.0.9000),
     marginaleffects (>= 0.32.0.9994),
     MatchIt,
+    mice,
     optmatch,
     propensity (>= 0.0.0.9000),
     quartets,
@@ -44,12 +46,12 @@ Imports:
     usethis (>= 2.1.0),
     xgboost,
     yardstick
-Remotes:  
+Remotes: 
     LucyMcGowan/touringplans,
     malcolmbarrett/marginaleffects/r@ipw-support,
-    r-causal/propensity,
     r-causal/ggdag,
     r-causal/halfmoon,
+    r-causal/propensity,
     r-causal/tidysmd
 Encoding: UTF-8
 Language: en-US
