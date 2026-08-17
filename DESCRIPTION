@@ -38,6 +38,7 @@ Imports:
     quartets,
     ranger,
     rsample (>= 0.0.5),
+    sandwich,
     smd (>= 0.6.6),
     SuperLearner,
     survey,
