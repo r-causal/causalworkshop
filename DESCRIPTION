@@ -27,10 +27,13 @@ Imports:
     glmnet,
     gtsummary (>= 1.5.0),
     halfmoon (>= 0.1.0.9000),
+    lmtp,
     marginaleffects (>= 0.32.0.9994),
     MatchIt,
     mice,
     optmatch,
+    patchwork,
+    positively (>= 0.0.0.9000),
     propensity (>= 0.0.0.9000),
     quartets,
     ranger,
@@ -51,6 +54,7 @@ Remotes:
     malcolmbarrett/marginaleffects/r@ipw-support,
     r-causal/ggdag,
     r-causal/halfmoon,
+    r-causal/positively,
     r-causal/propensity,
     r-causal/tidysmd
 Encoding: UTF-8
