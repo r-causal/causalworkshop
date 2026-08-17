@@ -16,14 +16,24 @@ knitr::opts_chunk$set(
 # Install the workshop materials for Causal Inference in R
 
 <!-- badges: start -->
+[![R-universe version](https://r-causal.r-universe.dev/causalworkshop/badges/version)](https://r-causal.r-universe.dev/causalworkshop)
 <!-- badges: end -->
 
 ## Installation
 
-You can install causalworkshop from this repository with
+You can install causalworkshop from [r-causal.r-universe.dev](https://r-causal.r-universe.dev/) with:
 
 ``` r
-install.packages("pak")
+install.packages(
+  "causalworkshop",
+  repos = c("https://r-causal.r-universe.dev", getOption("repos"))
+)
+```
+
+You can also install the development version of causalworkshop from [GitHub](https://github.com/r-causal/causalworkshop) with:
+
+``` r
+# install.packages("pak")
 pak::pak("r-causal/causalworkshop")
 ```
 
