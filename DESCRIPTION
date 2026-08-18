@@ -28,6 +28,7 @@ Imports:
     gtsummary (>= 1.5.0),
     halfmoon (>= 0.1.0.9000),
     lmtp,
+    lpSolve,
     marginaleffects (>= 0.32.0.9994),
     MatchIt,
     mice,
